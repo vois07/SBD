@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Rodzaj_zwierzęcia" directorySegmentName="seg_0" id="F4F7E0C9-D840-4DBB-6BCD-781134724E19">
+<createdBy>paulina</createdBy>
+<createdTime>2017-11-06 21:11:52 UTC</createdTime>
+<ownerDesignName>animal_shelter</ownerDesignName>
+<engineerTo>
+<item key="9E81A231-DD50-5161-9D8B-F972A0B15065" value="true"/>
+</engineerTo>
+<sourcePk>2B8C2DFD-1CE9-E340-F2FC-5AB86DBE3254</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>opisuje</nameOnSource>
+<nameOnTarget>jest typu</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>12F7381A-CB1C-FA5C-6C4A-A5E5459FE82C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4C18AFF1-27FA-613A-BFE9-83E15CD37A5A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

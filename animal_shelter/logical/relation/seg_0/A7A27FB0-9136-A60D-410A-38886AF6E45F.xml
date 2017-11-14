@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Rodzaj_zabiegu" directorySegmentName="seg_0" id="A7A27FB0-9136-A60D-410A-38886AF6E45F">
+<createdBy>paulina</createdBy>
+<createdTime>2017-11-06 21:12:56 UTC</createdTime>
+<ownerDesignName>animal_shelter</ownerDesignName>
+<engineerTo>
+<item key="9E81A231-DD50-5161-9D8B-F972A0B15065" value="true"/>
+</engineerTo>
+<targetPk>10EA6565-BCFE-8E0C-E488-4DCA11E315CA</targetPk>
+<identifying>false</identifying>
+<nameOnSource>składa się z</nameOnSource>
+<nameOnTarget>wchodzi w skład</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>B9A861B4-6F08-1C3D-5430-8B43DBBC42B9</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>8F421484-7879-F7A5-3A0F-86BEAEC7FEED</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

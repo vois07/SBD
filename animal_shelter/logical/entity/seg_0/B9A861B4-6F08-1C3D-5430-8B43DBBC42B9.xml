@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B9A861B4-6F08-1C3D-5430-8B43DBBC42B9" name="Przydziały">
+<createdBy>paulina</createdBy>
+<createdTime>2017-10-25 14:13:21 UTC</createdTime>
+<ownerDesignName>animal_shelter</ownerDesignName>
+<engineerTo>
+<item key="9E81A231-DD50-5161-9D8B-F972A0B15065" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_z" id="00A7EBC0-2CB5-9BED-65B8-442813560EE8">
+<createdBy>paulina</createdBy>
+<createdTime>2017-11-14 07:55:06 UTC</createdTime>
+<generatorID>E0CACCF4-78AD-A43B-139B-6B93DFE104F3</generatorID>
+<ownerDesignName>animal_shelter</ownerDesignName>
+<engineerTo>
+<item key="9E81A231-DD50-5161-9D8B-F972A0B15065" value="true"/>
+</engineerTo>
+<referedAttribute>80EE7574-BD1F-9A4D-CDE2-0DBCA1D1F7C0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pesel" id="6BB1A939-9BBD-98CA-FB26-43C935231CFB">
+<createdBy>paulina</createdBy>
+<createdTime>2017-11-14 08:26:44 UTC</createdTime>
+<generatorID>DA446396-1886-5D5A-7AEA-7AF53A4441C8</generatorID>
+<ownerDesignName>animal_shelter</ownerDesignName>
+<engineerTo>
+<item key="9E81A231-DD50-5161-9D8B-F972A0B15065" value="true"/>
+</engineerTo>
+<referedAttribute>03F398D2-00F9-1E49-ED7D-3F367A7B5E99</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_p" id="45A7E621-28B5-6821-6B6E-B4F142428186">
+<createdBy>paulina</createdBy>
+<createdTime>2017-11-14 10:26:53 UTC</createdTime>
+<generatorID>A7A27FB0-9136-A60D-410A-38886AF6E45F</generatorID>
+<ownerDesignName>animal_shelter</ownerDesignName>
+<engineerTo>
+<item key="9E81A231-DD50-5161-9D8B-F972A0B15065" value="true"/>
+</engineerTo>
+<referedAttribute>3F4069E9-8453-C3ED-1B50-86734DD46F91</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Rodzaj_pracowników" directorySegmentName="seg_0" id="48224066-AD69-7D1E-946A-406F5CFB7CC3">
+<createdBy>paulina</createdBy>
+<createdTime>2017-11-06 21:12:46 UTC</createdTime>
+<ownerDesignName>animal_shelter</ownerDesignName>
+<engineerTo>
+<item key="9E81A231-DD50-5161-9D8B-F972A0B15065" value="true"/>
+</engineerTo>
+<sourcePk>4CFFBE6B-7335-F3B9-5BC8-CA36A7C8DD2F</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>opisuje</nameOnSource>
+<nameOnTarget>jest typu</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3B412B19-1D53-1804-B4DD-1DFA8AD146FF</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7A78C266-A048-1C86-DB0F-6864094DDE85</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

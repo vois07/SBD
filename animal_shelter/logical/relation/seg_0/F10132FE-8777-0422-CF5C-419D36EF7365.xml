@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Zakwaterowanie" directorySegmentName="seg_0" id="F10132FE-8777-0422-CF5C-419D36EF7365">
+<createdBy>paulina</createdBy>
+<createdTime>2017-11-06 21:11:44 UTC</createdTime>
+<ownerDesignName>animal_shelter</ownerDesignName>
+<engineerTo>
+<item key="9E81A231-DD50-5161-9D8B-F972A0B15065" value="true"/>
+</engineerTo>
+<sourcePk>69298EC5-7461-B3DE-7566-FDF698CC864C</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>gości</nameOnSource>
+<nameOnTarget>zajmuje</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C2B52866-4161-DB8F-80F1-828853A913E6</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4C18AFF1-27FA-613A-BFE9-83E15CD37A5A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

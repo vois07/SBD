@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Opieka" directorySegmentName="seg_0" id="E0CACCF4-78AD-A43B-139B-6B93DFE104F3">
+<createdBy>paulina</createdBy>
+<createdTime>2017-11-06 21:13:02 UTC</createdTime>
+<ownerDesignName>animal_shelter</ownerDesignName>
+<engineerTo>
+<item key="9E81A231-DD50-5161-9D8B-F972A0B15065" value="true"/>
+</engineerTo>
+<targetPk>326CA0A9-4AE9-C80F-4968-208A9F7023E2</targetPk>
+<identifying>false</identifying>
+<nameOnSource>ma</nameOnSource>
+<nameOnTarget>dotyczy</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>B9A861B4-6F08-1C3D-5430-8B43DBBC42B9</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>4C18AFF1-27FA-613A-BFE9-83E15CD37A5A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="animal_shelter" id="5B66AB6C-EC76-2DBA-4EFD-DA3A5E075091" version="3.5">
+<createdBy>paulina</createdBy>
+<createdTime>2017-10-25 14:11:40 UTC</createdTime>
+<ownerDesignName>animal_shelter</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>5B66AB6C-EC76-2DBA-4EFD-DA3A5E075091</designId>
+</OSDM_Design>

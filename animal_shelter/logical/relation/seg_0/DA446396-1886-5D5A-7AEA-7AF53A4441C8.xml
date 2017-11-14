@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Przydział" directorySegmentName="seg_0" id="DA446396-1886-5D5A-7AEA-7AF53A4441C8">
+<createdBy>paulina</createdBy>
+<createdTime>2017-11-06 21:12:50 UTC</createdTime>
+<ownerDesignName>animal_shelter</ownerDesignName>
+<engineerTo>
+<item key="9E81A231-DD50-5161-9D8B-F972A0B15065" value="true"/>
+</engineerTo>
+<sourcePk>236A43CA-4048-D6A9-3B80-13EEBD7A9805</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>ma zadany</nameOnSource>
+<nameOnTarget>dotyczy</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7A78C266-A048-1C86-DB0F-6864094DDE85</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B9A861B4-6F08-1C3D-5430-8B43DBBC42B9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

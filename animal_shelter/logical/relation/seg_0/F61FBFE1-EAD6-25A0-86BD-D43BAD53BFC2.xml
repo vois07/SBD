@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Adoptowanie" directorySegmentName="seg_0" id="F61FBFE1-EAD6-25A0-86BD-D43BAD53BFC2">
+<createdBy>paulina</createdBy>
+<createdTime>2017-11-06 21:12:19 UTC</createdTime>
+<ownerDesignName>animal_shelter</ownerDesignName>
+<engineerTo>
+<item key="9E81A231-DD50-5161-9D8B-F972A0B15065" value="true"/>
+</engineerTo>
+<targetPk>326CA0A9-4AE9-C80F-4968-208A9F7023E2</targetPk>
+<identifying>false</identifying>
+<nameOnSource>dotyczy</nameOnSource>
+<nameOnTarget>jest przedmiotem</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>9B033132-6D67-C6BD-36C5-7AC0A5044249</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>4C18AFF1-27FA-613A-BFE9-83E15CD37A5A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
