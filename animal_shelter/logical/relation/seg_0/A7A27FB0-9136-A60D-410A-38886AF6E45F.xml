@@ -6,9 +6,9 @@
 <engineerTo>
 <item key="9E81A231-DD50-5161-9D8B-F972A0B15065" value="true"/>
 </engineerTo>
-<targetPk>10EA6565-BCFE-8E0C-E488-4DCA11E315CA</targetPk>
-<identifying>false</identifying>
-<nameOnSource>składa się z</nameOnSource>
+<targetPk>E6FB87A4-8D27-573E-5E11-857705E8DE91</targetPk>
+<identifying>true</identifying>
+<nameOnSource>dotyczy</nameOnSource>
 <nameOnTarget>wchodzi w skład</nameOnTarget>
 <optionalSource>false</optionalSource>
 <optionalTarget>true</optionalTarget>

@@ -27,59 +27,47 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="typ" id="695B4665-2D5F-7D93-78C4-7881C93881D2">
+<Attribute name="id_m" id="8F53A886-CD67-5031-4EAF-8D80A347BCD3">
 <createdBy>paulina</createdBy>
-<createdTime>2017-10-25 14:17:53 UTC</createdTime>
-<ownerDesignName>animal_shelter</ownerDesignName>
-<engineerTo>
-<item key="9E81A231-DD50-5161-9D8B-F972A0B15065" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>30 CHAR</dataTypeSize>
-<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="kwatera" id="0B04C801-3427-D0F5-77CD-520CF7A23E88">
-<createdBy>paulina</createdBy>
-<createdTime>2017-10-25 14:18:33 UTC</createdTime>
-<ownerDesignName>animal_shelter</ownerDesignName>
-<engineerTo>
-<item key="9E81A231-DD50-5161-9D8B-F972A0B15065" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>30 CHAR</dataTypeSize>
-<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id_m" id="35304862-02A2-9B85-DA13-452DDD65F637">
-<createdBy>paulina</createdBy>
-<createdTime>2017-11-14 08:29:41 UTC</createdTime>
+<createdTime>2017-11-27 17:09:51 UTC</createdTime>
 <generatorID>F10132FE-8777-0422-CF5C-419D36EF7365</generatorID>
 <ownerDesignName>animal_shelter</ownerDesignName>
 <engineerTo>
 <item key="9E81A231-DD50-5161-9D8B-F972A0B15065" value="true"/>
 </engineerTo>
-<referedAttribute>6EB57EEE-C06A-0891-3343-549CD9D81B53</referedAttribute>
+<referedAttribute>D22C7306-D0F8-CA12-8EB2-7A0F8C6FFCCF</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id" id="B718AB9C-64CC-F338-E1F7-B045FC35D7A3">
+<Attribute name="nazwa" id="70F70EE7-D790-D826-B3FA-A4C177E488EF">
 <createdBy>paulina</createdBy>
-<createdTime>2017-11-14 10:25:13 UTC</createdTime>
+<createdTime>2017-11-27 17:15:21 UTC</createdTime>
 <generatorID>F4F7E0C9-D840-4DBB-6BCD-781134724E19</generatorID>
 <ownerDesignName>animal_shelter</ownerDesignName>
 <engineerTo>
 <item key="9E81A231-DD50-5161-9D8B-F972A0B15065" value="true"/>
 </engineerTo>
-<referedAttribute>3CCC1F6E-E4A7-269F-3FAF-2E7F7DBA577E</referedAttribute>
+<referedAttribute>19D94ACC-ACB4-CF1C-20A4-71B78448524D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="imię" id="EB37EB01-CBFF-E80E-D579-59DFF90FA3E6">
+<createdBy>paulina</createdBy>
+<createdTime>2017-11-27 17:17:02 UTC</createdTime>
+<ownerDesignName>animal_shelter</ownerDesignName>
+<engineerTo>
+<item key="9E81A231-DD50-5161-9D8B-F972A0B15065" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

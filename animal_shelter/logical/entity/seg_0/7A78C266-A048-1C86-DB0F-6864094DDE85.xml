@@ -81,26 +81,26 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id" id="2101DB48-8DD0-A029-D997-7BAA2CE978BB">
+<Attribute name="nazwa" id="1291D50B-6A54-B169-6941-15C847D86073">
 <createdBy>paulina</createdBy>
-<createdTime>2017-11-14 10:26:26 UTC</createdTime>
+<createdTime>2017-11-27 17:11:13 UTC</createdTime>
 <generatorID>48224066-AD69-7D1E-946A-406F5CFB7CC3</generatorID>
 <ownerDesignName>animal_shelter</ownerDesignName>
 <engineerTo>
 <item key="9E81A231-DD50-5161-9D8B-F972A0B15065" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<referedAttribute>7EE1FCD0-90A0-5E62-9C46-79846919FCE8</referedAttribute>
+<referedAttribute>BF10EC9C-9394-B003-7699-82A14794684A</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="236A43CA-4048-D6A9-3B80-13EEBD7A9805" name="Pracownicy PK">
+<identifier id="E987F3C1-3C38-E808-306E-8B3EC948932B" name="Pracownicy PK">
 <createdBy>paulina</createdBy>
-<createdTime>2017-11-14 07:52:49 UTC</createdTime>
+<createdTime>2017-11-27 17:11:38 UTC</createdTime>
 <ownerDesignName>animal_shelter</ownerDesignName>
 <engineerTo>
 <item key="9E81A231-DD50-5161-9D8B-F972A0B15065" value="true"/>

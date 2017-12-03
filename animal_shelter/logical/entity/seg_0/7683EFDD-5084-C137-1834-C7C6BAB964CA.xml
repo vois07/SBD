@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id" id="A78E97B2-43F9-7C65-160D-EC11BB4CA9DF">
+<Attribute name="id" id="56A5AEC4-6B66-67DC-AB17-42303D4983BD">
 <createdBy>paulina</createdBy>
-<createdTime>2017-11-14 10:25:38 UTC</createdTime>
+<createdTime>2017-11-27 17:19:17 UTC</createdTime>
 <ownerDesignName>animal_shelter</ownerDesignName>
 <engineerTo>
 <item key="9E81A231-DD50-5161-9D8B-F972A0B15065" value="true"/>
@@ -53,15 +53,15 @@
 <dataTypeSize>100 CHAR</dataTypeSize>
 <ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_z" id="DB5032A9-DAC4-582E-0D8C-B03D3323F2B7">
+<Attribute name="id_m" id="EC70462B-F80E-48B0-D1F1-8CFF245E86AF">
 <createdBy>paulina</createdBy>
-<createdTime>2017-11-14 08:27:02 UTC</createdTime>
+<createdTime>2017-11-27 17:10:44 UTC</createdTime>
 <generatorID>49CF982B-1C22-E256-8E4A-437B44A9F842</generatorID>
 <ownerDesignName>animal_shelter</ownerDesignName>
 <engineerTo>
 <item key="9E81A231-DD50-5161-9D8B-F972A0B15065" value="true"/>
 </engineerTo>
-<referedAttribute>80EE7574-BD1F-9A4D-CDE2-0DBCA1D1F7C0</referedAttribute>
+<referedAttribute>D22C7306-D0F8-CA12-8EB2-7A0F8C6FFCCF</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -69,16 +69,16 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="517F97FF-A1C3-22F5-05FD-312B64F2B133" name="Przyjęcia PK">
+<identifier id="5BECE88E-D74A-050E-6A73-C58D5779C860" name="Przyjęcia PK">
 <createdBy>paulina</createdBy>
-<createdTime>2017-11-14 10:25:47 UTC</createdTime>
+<createdTime>2017-11-27 17:19:20 UTC</createdTime>
 <ownerDesignName>animal_shelter</ownerDesignName>
 <engineerTo>
 <item key="9E81A231-DD50-5161-9D8B-F972A0B15065" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>A78E97B2-43F9-7C65-160D-EC11BB4CA9DF</attributeRef>
+<attributeRef>56A5AEC4-6B66-67DC-AB17-42303D4983BD</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

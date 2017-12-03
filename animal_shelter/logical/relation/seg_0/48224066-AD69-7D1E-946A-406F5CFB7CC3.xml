@@ -6,12 +6,12 @@
 <engineerTo>
 <item key="9E81A231-DD50-5161-9D8B-F972A0B15065" value="true"/>
 </engineerTo>
-<sourcePk>4CFFBE6B-7335-F3B9-5BC8-CA36A7C8DD2F</sourcePk>
+<sourcePk>42A572B7-B4C2-49B1-B8B6-C614C89A6B39</sourcePk>
 <identifying>false</identifying>
 <nameOnSource>opisuje</nameOnSource>
 <nameOnTarget>jest typu</nameOnTarget>
 <optionalSource>true</optionalSource>
-<optionalTarget>true</optionalTarget>
+<optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>3B412B19-1D53-1804-B4DD-1DFA8AD146FF</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>

@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_a" id="63521DBC-7CF9-0D76-AD0C-97EF70D9C6CB">
+<Attribute name="id_a" id="E4DBEB6E-9782-A917-5174-AB137513D959">
 <createdBy>paulina</createdBy>
-<createdTime>2017-11-14 08:28:15 UTC</createdTime>
+<createdTime>2017-11-06 20:56:33 UTC</createdTime>
 <ownerDesignName>animal_shelter</ownerDesignName>
 <engineerTo>
 <item key="9E81A231-DD50-5161-9D8B-F972A0B15065" value="true"/>
@@ -52,9 +52,9 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_z" id="D356031C-D660-C471-12F7-EA754C2346C1">
+<Attribute name="id_z" id="81A68484-5E05-7C19-18BB-E8829B7A37E6">
 <createdBy>paulina</createdBy>
-<createdTime>2017-11-14 08:25:21 UTC</createdTime>
+<createdTime>2017-11-13 18:56:58 UTC</createdTime>
 <generatorID>F61FBFE1-EAD6-25A0-86BD-D43BAD53BFC2</generatorID>
 <ownerDesignName>animal_shelter</ownerDesignName>
 <engineerTo>
@@ -68,16 +68,16 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="6C6452CB-30CF-2C90-29D2-7A333702CF94" name="Adopcje PK">
+<identifier id="D5BA2B48-627B-82B6-5ADA-C2259E5890D0" name="Adopcje PK">
 <createdBy>paulina</createdBy>
-<createdTime>2017-11-14 08:28:26 UTC</createdTime>
+<createdTime>2017-11-27 17:17:49 UTC</createdTime>
 <ownerDesignName>animal_shelter</ownerDesignName>
 <engineerTo>
 <item key="9E81A231-DD50-5161-9D8B-F972A0B15065" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>63521DBC-7CF9-0D76-AD0C-97EF70D9C6CB</attributeRef>
+<attributeRef>E4DBEB6E-9782-A917-5174-AB137513D959</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

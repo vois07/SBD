@@ -71,9 +71,9 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="1A282704-9A21-583E-F6B3-3B2BD940B126" name="Adoptujący PK">
+<identifier id="DEC93880-6EA1-1834-505E-CE8306526361" name="Adoptujący PK">
 <createdBy>paulina</createdBy>
-<createdTime>2017-11-14 08:29:14 UTC</createdTime>
+<createdTime>2017-11-27 17:15:49 UTC</createdTime>
 <ownerDesignName>animal_shelter</ownerDesignName>
 <engineerTo>
 <item key="9E81A231-DD50-5161-9D8B-F972A0B15065" value="true"/>

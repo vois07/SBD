@@ -6,16 +6,16 @@
 <engineerTo>
 <item key="9E81A231-DD50-5161-9D8B-F972A0B15065" value="true"/>
 </engineerTo>
-<targetPk>326CA0A9-4AE9-C80F-4968-208A9F7023E2</targetPk>
+<targetPk>81AF6AC2-ABCF-4A00-DA40-09058DDA4B53</targetPk>
 <identifying>false</identifying>
-<nameOnSource>dotyczy</nameOnSource>
-<nameOnTarget>jest przedmiotem</nameOnTarget>
+<nameOnSource>do</nameOnSource>
+<nameOnTarget>dotyczy</nameOnTarget>
 <optionalSource>false</optionalSource>
-<optionalTarget>false</optionalTarget>
+<optionalTarget>true</optionalTarget>
 <sourceCardinality>*</sourceCardinality>
 <sourceEntity>7683EFDD-5084-C137-1834-C7C6BAB964CA</sourceEntity>
 <targetCardinalityString>1</targetCardinalityString>
-<targetEntity>4C18AFF1-27FA-613A-BFE9-83E15CD37A5A</targetEntity>
+<targetEntity>C2B52866-4161-DB8F-80F1-828853A913E6</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>

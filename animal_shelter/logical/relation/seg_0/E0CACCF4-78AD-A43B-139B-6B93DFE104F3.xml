@@ -7,7 +7,7 @@
 <item key="9E81A231-DD50-5161-9D8B-F972A0B15065" value="true"/>
 </engineerTo>
 <targetPk>326CA0A9-4AE9-C80F-4968-208A9F7023E2</targetPk>
-<identifying>false</identifying>
+<identifying>true</identifying>
 <nameOnSource>ma</nameOnSource>
 <nameOnTarget>dotyczy</nameOnTarget>
 <optionalSource>false</optionalSource>

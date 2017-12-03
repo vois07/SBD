@@ -15,18 +15,6 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_p" id="3F4069E9-8453-C3ED-1B50-86734DD46F91">
-<createdBy>paulina</createdBy>
-<createdTime>2017-11-14 10:26:41 UTC</createdTime>
-<ownerDesignName>animal_shelter</ownerDesignName>
-<engineerTo>
-<item key="9E81A231-DD50-5161-9D8B-F972A0B15065" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="nazwa" id="04EFA312-E8E4-425C-0A79-0CE0E52F2514">
 <createdBy>paulina</createdBy>
 <createdTime>2017-11-06 21:10:25 UTC</createdTime>
@@ -42,16 +30,16 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="10EA6565-BCFE-8E0C-E488-4DCA11E315CA" name="Zabiegi pielęgnacyjne PK">
+<identifier id="E6FB87A4-8D27-573E-5E11-857705E8DE91" name="Zabiegi pielęgnacyjne PK">
 <createdBy>paulina</createdBy>
-<createdTime>2017-11-14 10:26:52 UTC</createdTime>
+<createdTime>2017-11-27 17:13:50 UTC</createdTime>
 <ownerDesignName>animal_shelter</ownerDesignName>
 <engineerTo>
 <item key="9E81A231-DD50-5161-9D8B-F972A0B15065" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>3F4069E9-8453-C3ED-1B50-86734DD46F91</attributeRef>
+<attributeRef>04EFA312-E8E4-425C-0A79-0CE0E52F2514</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

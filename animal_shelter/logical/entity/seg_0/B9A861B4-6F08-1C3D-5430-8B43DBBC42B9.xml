@@ -15,23 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_z" id="00A7EBC0-2CB5-9BED-65B8-442813560EE8">
+<Attribute name="pesel" id="CA4A1B22-D1B4-2B0C-AD6B-FCEA1959C18C">
 <createdBy>paulina</createdBy>
-<createdTime>2017-11-14 07:55:06 UTC</createdTime>
-<generatorID>E0CACCF4-78AD-A43B-139B-6B93DFE104F3</generatorID>
-<ownerDesignName>animal_shelter</ownerDesignName>
-<engineerTo>
-<item key="9E81A231-DD50-5161-9D8B-F972A0B15065" value="true"/>
-</engineerTo>
-<referedAttribute>80EE7574-BD1F-9A4D-CDE2-0DBCA1D1F7C0</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="pesel" id="6BB1A939-9BBD-98CA-FB26-43C935231CFB">
-<createdBy>paulina</createdBy>
-<createdTime>2017-11-14 08:26:44 UTC</createdTime>
+<createdTime>2017-11-27 17:11:40 UTC</createdTime>
 <generatorID>DA446396-1886-5D5A-7AEA-7AF53A4441C8</generatorID>
 <ownerDesignName>animal_shelter</ownerDesignName>
 <engineerTo>
@@ -44,19 +30,63 @@
 <dataTypeSize>11 CHAR</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_p" id="45A7E621-28B5-6821-6B6E-B4F142428186">
+<Attribute name="nazwa" id="DC18A877-D6CA-2EAA-B1D2-82411E4EE0B8">
 <createdBy>paulina</createdBy>
-<createdTime>2017-11-14 10:26:53 UTC</createdTime>
+<createdTime>2017-11-27 17:13:51 UTC</createdTime>
 <generatorID>A7A27FB0-9136-A60D-410A-38886AF6E45F</generatorID>
 <ownerDesignName>animal_shelter</ownerDesignName>
 <engineerTo>
 <item key="9E81A231-DD50-5161-9D8B-F972A0B15065" value="true"/>
 </engineerTo>
-<referedAttribute>3F4069E9-8453-C3ED-1B50-86734DD46F91</referedAttribute>
+<referedAttribute>04EFA312-E8E4-425C-0A79-0CE0E52F2514</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_z" id="CFA622DD-2600-049D-DB34-48520011243C">
+<createdBy>paulina</createdBy>
+<createdTime>2017-11-27 17:14:29 UTC</createdTime>
+<generatorID>E0CACCF4-78AD-A43B-139B-6B93DFE104F3</generatorID>
+<ownerDesignName>animal_shelter</ownerDesignName>
+<engineerTo>
+<item key="9E81A231-DD50-5161-9D8B-F972A0B15065" value="true"/>
+</engineerTo>
+<referedAttribute>80EE7574-BD1F-9A4D-CDE2-0DBCA1D1F7C0</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="data" id="6EA0A52F-DF23-3C74-025E-197698587006">
+<createdBy>paulina</createdBy>
+<createdTime>2017-11-28 08:37:56 UTC</createdTime>
+<ownerDesignName>animal_shelter</ownerDesignName>
+<engineerTo>
+<item key="9E81A231-DD50-5161-9D8B-F972A0B15065" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8060372E-BB87-9889-09BB-72646EAAFF91" name="Przydziały PK">
+<createdBy>paulina</createdBy>
+<createdTime>2017-11-27 17:15:01 UTC</createdTime>
+<ownerDesignName>animal_shelter</ownerDesignName>
+<engineerTo>
+<item key="9E81A231-DD50-5161-9D8B-F972A0B15065" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CFA622DD-2600-049D-DB34-48520011243C</attributeRef>
+<attributeRef>DC18A877-D6CA-2EAA-B1D2-82411E4EE0B8</attributeRef>
+<attributeRef>CA4A1B22-D1B4-2B0C-AD6B-FCEA1959C18C</attributeRef>
+<attributeRef>6EA0A52F-DF23-3C74-025E-197698587006</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>
