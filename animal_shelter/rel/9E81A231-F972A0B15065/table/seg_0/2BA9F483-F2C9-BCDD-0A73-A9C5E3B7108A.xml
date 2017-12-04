@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2BA9F483-F2C9-BCDD-0A73-A9C5E3B7108A" name="Zwierzęta">
+<createdBy>paulina</createdBy>
+<createdTime>2017-12-04 21:10:00 UTC</createdTime>
+<generatorID>4C18AFF1-27FA-613A-BFE9-83E15CD37A5A</generatorID>
+<ownerDesignName>animal_shelter</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_z" id="64600B35-68FD-0896-D068-544378A2265B">
+<createdBy>paulina</createdBy>
+<createdTime>2017-12-04 21:10:00 UTC</createdTime>
+<generatorID>80EE7574-BD1F-9A4D-CDE2-0DBCA1D1F7C0</generatorID>
+<ownerDesignName>animal_shelter</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Miejsca_id_m" id="F7582727-E93D-C3DB-D512-5B4B464044AE">
+<createdBy>paulina</createdBy>
+<createdTime>2017-12-04 21:10:00 UTC</createdTime>
+<generatorID>8F53A886-CD67-5031-4EAF-8D80A347BCD3</generatorID>
+<ownerDesignName>animal_shelter</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="196FFDE3-0B76-4FCA-C0D3-31F7A20B3362" referredColumn="91FBDE51-16C4-A8B6-09E6-24BB6E36A354"/>
+</associations>
+</Column>
+<Column name="Typy_zwierząt_nazwa" id="9B1D8C88-1D6A-2FCC-5C32-E03D87F57CBE">
+<createdBy>paulina</createdBy>
+<createdTime>2017-12-04 21:10:00 UTC</createdTime>
+<generatorID>70F70EE7-D790-D826-B3FA-A4C177E488EF</generatorID>
+<ownerDesignName>animal_shelter</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C78C520B-8D9B-1CFF-15C9-821FE84C4D4D" referredColumn="D23A83CA-A89E-44A3-A71B-A5A9B85F2F43"/>
+</associations>
+</Column>
+<Column name="imię" id="2BAF7884-7915-5821-2E71-E6FA41D95D40">
+<createdBy>paulina</createdBy>
+<createdTime>2017-12-04 21:10:00 UTC</createdTime>
+<generatorID>EB37EB01-CBFF-E80E-D579-59DFF90FA3E6</generatorID>
+<ownerDesignName>animal_shelter</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="343278D0-B820-DE05-987D-34E155D1172B" name="Zwierzęta_PK">
+<createdBy>paulina</createdBy>
+<createdTime>2017-12-04 21:10:00 UTC</createdTime>
+<generatorID>326CA0A9-4AE9-C80F-4968-208A9F7023E2</generatorID>
+<ownerDesignName>animal_shelter</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="64600B35-68FD-0896-D068-544378A2265B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4D012386-27FF-7250-313B-AA0864677914" name="Zwierzęta_Typy_zwierząt_FK">
+<createdBy>paulina</createdBy>
+<createdTime>2017-12-04 21:10:00 UTC</createdTime>
+<generatorID>F4F7E0C9-D840-4DBB-6BCD-781134724E19</generatorID>
+<ownerDesignName>animal_shelter</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9B1D8C88-1D6A-2FCC-5C32-E03D87F57CBE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DB601E31-1D7D-B38F-3084-4A67EEFD6A6F" name="Zwierzęta_Miejsca_FK">
+<createdBy>paulina</createdBy>
+<createdTime>2017-12-04 21:10:00 UTC</createdTime>
+<generatorID>F10132FE-8777-0422-CF5C-419D36EF7365</generatorID>
+<ownerDesignName>animal_shelter</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F7582727-E93D-C3DB-D512-5B4B464044AE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

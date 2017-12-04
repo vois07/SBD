@@ -1,0 +1,38 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0DC17624-34D0-0CCC-CCA1-99CE7020AB4A" name="Typy_miejsc">
+<createdBy>paulina</createdBy>
+<createdTime>2017-12-04 21:10:00 UTC</createdTime>
+<generatorID>63EA0044-579E-D83F-1658-9ADC057A4749</generatorID>
+<ownerDesignName>animal_shelter</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nazwa" id="A840060D-0E29-F840-F21B-108D95D880E2">
+<createdBy>paulina</createdBy>
+<createdTime>2017-12-04 21:10:00 UTC</createdTime>
+<generatorID>6B9D8E87-12D3-D198-C873-8590A875DC4C</generatorID>
+<ownerDesignName>animal_shelter</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="092A08CB-29CB-CF9E-2CA5-5429F45EE38C" name="Typy_miejsc_PK">
+<createdBy>paulina</createdBy>
+<createdTime>2017-12-04 21:10:00 UTC</createdTime>
+<generatorID>05822AA1-124D-617F-D4E7-488974F57BA3</generatorID>
+<ownerDesignName>animal_shelter</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A840060D-0E29-F840-F21B-108D95D880E2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

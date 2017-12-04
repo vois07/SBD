@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3EE89C23-74EB-EC6D-0898-DA9F5CF1A7D0" containerWithKeyObject="6AEFD02F-F025-6B82-1C81-EF3B40AE7008" localFKIndex="CF3CF4FD-8C67-CE61-7E68-6775531C46EC" name="Miejsca_Typy_miejsc_FK">
+<createdBy>paulina</createdBy>
+<createdTime>2017-12-04 21:10:00 UTC</createdTime>
+<generatorID>42C3ABAE-49D0-13E0-28F1-90F379292441</generatorID>
+<ownerDesignName>animal_shelter</ownerDesignName>
+<referredTableLongName>Typy_miejsc</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0DC17624-34D0-0CCC-CCA1-99CE7020AB4A</referredTableID>
+<keyObject>092A08CB-29CB-CF9E-2CA5-5429F45EE38C</keyObject>
+<referredKeyID>092A08CB-29CB-CF9E-2CA5-5429F45EE38C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>nazwa</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

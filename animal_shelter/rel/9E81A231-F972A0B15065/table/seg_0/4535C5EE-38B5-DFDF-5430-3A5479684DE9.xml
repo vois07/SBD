@@ -1,0 +1,121 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4535C5EE-38B5-DFDF-5430-3A5479684DE9" name="Przydziały">
+<createdBy>paulina</createdBy>
+<createdTime>2017-12-04 21:10:00 UTC</createdTime>
+<generatorID>B9A861B4-6F08-1C3D-5430-8B43DBBC42B9</generatorID>
+<ownerDesignName>animal_shelter</ownerDesignName>
+<ordsAlias>przydzialy</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Pracownicy_pesel" id="F1542D80-823F-EFA1-8B7A-DC8D67AAEB7E">
+<createdBy>paulina</createdBy>
+<createdTime>2017-12-04 21:10:00 UTC</createdTime>
+<generatorID>CA4A1B22-D1B4-2B0C-AD6B-FCEA1959C18C</generatorID>
+<ownerDesignName>animal_shelter</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="32CF4471-BA4A-3CE7-B129-EE6D27563D34" referredColumn="019C6C50-EF24-D103-29A7-7BA1F445DE73"/>
+</associations>
+</Column>
+<Column name="Zabiegi_pielęgnacyjne_nazwa" id="D5B1ECEE-1147-AC63-0D79-F716B39D553A">
+<createdBy>paulina</createdBy>
+<createdTime>2017-12-04 21:10:00 UTC</createdTime>
+<generatorID>DC18A877-D6CA-2EAA-B1D2-82411E4EE0B8</generatorID>
+<ownerDesignName>animal_shelter</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DFE11919-0CD3-7D0F-48DB-13D50C17F6A0" referredColumn="98E60434-276A-57F7-C999-B8E9A8567840"/>
+</associations>
+</Column>
+<Column name="Zwierzęta_id_z" id="2B39D5A8-7A57-998F-C01D-3CF789A23E93">
+<createdBy>paulina</createdBy>
+<createdTime>2017-12-04 21:10:00 UTC</createdTime>
+<generatorID>CFA622DD-2600-049D-DB34-48520011243C</generatorID>
+<ownerDesignName>animal_shelter</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DA247511-040D-77AC-9B0E-6D21AFCC1128" referredColumn="64600B35-68FD-0896-D068-544378A2265B"/>
+</associations>
+</Column>
+<Column name="data" id="FBB2F49A-7A20-9FBB-9F03-89AE1BFBFB5B">
+<createdBy>paulina</createdBy>
+<createdTime>2017-12-04 21:10:00 UTC</createdTime>
+<generatorID>6EA0A52F-DF23-3C74-025E-197698587006</generatorID>
+<ownerDesignName>animal_shelter</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A2684475-2608-6628-33D0-910108F0CC90" name="Przydziały_PK">
+<createdBy>paulina</createdBy>
+<createdTime>2017-12-04 21:10:00 UTC</createdTime>
+<generatorID>8060372E-BB87-9889-09BB-72646EAAFF91</generatorID>
+<ownerDesignName>animal_shelter</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2B39D5A8-7A57-998F-C01D-3CF789A23E93"/>
+<colUsage columnID="D5B1ECEE-1147-AC63-0D79-F716B39D553A"/>
+<colUsage columnID="F1542D80-823F-EFA1-8B7A-DC8D67AAEB7E"/>
+<colUsage columnID="FBB2F49A-7A20-9FBB-9F03-89AE1BFBFB5B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F3FD6A36-0E3F-6184-4E3E-61EB542B77D5" name="Przydziały_Zwierzęta_FK">
+<createdBy>paulina</createdBy>
+<createdTime>2017-12-04 21:10:00 UTC</createdTime>
+<generatorID>E0CACCF4-78AD-A43B-139B-6B93DFE104F3</generatorID>
+<ownerDesignName>animal_shelter</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2B39D5A8-7A57-998F-C01D-3CF789A23E93"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0E20A341-2B86-770E-730E-B67DADF8DE58" name="Przydziały_Pracownicy_FK">
+<createdBy>paulina</createdBy>
+<createdTime>2017-12-04 21:10:00 UTC</createdTime>
+<generatorID>DA446396-1886-5D5A-7AEA-7AF53A4441C8</generatorID>
+<ownerDesignName>animal_shelter</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F1542D80-823F-EFA1-8B7A-DC8D67AAEB7E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="29C1CF17-AA47-58D4-3212-A37A6F546A0E" name="Przydziały_Zabiegi_FK">
+<createdBy>paulina</createdBy>
+<createdTime>2017-12-04 21:10:00 UTC</createdTime>
+<generatorID>A7A27FB0-9136-A60D-410A-38886AF6E45F</generatorID>
+<ownerDesignName>animal_shelter</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D5B1ECEE-1147-AC63-0D79-F716B39D553A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="530FED86-42B7-912E-B58A-423C2628D901" name="Pracownicy">
+<createdBy>paulina</createdBy>
+<createdTime>2017-12-04 21:10:00 UTC</createdTime>
+<generatorID>7A78C266-A048-1C86-DB0F-6864094DDE85</generatorID>
+<ownerDesignName>animal_shelter</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="imię" id="2E11559F-1BF3-F949-CAE2-5976845AD425">
+<createdBy>paulina</createdBy>
+<createdTime>2017-12-04 21:10:00 UTC</createdTime>
+<generatorID>6D194D0F-63FB-8303-7439-74BE3CD72C61</generatorID>
+<ownerDesignName>animal_shelter</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nazwisko" id="5017D25B-BCC6-4DBF-DA7E-89F2EA78A7B2">
+<createdBy>paulina</createdBy>
+<createdTime>2017-12-04 21:10:00 UTC</createdTime>
+<generatorID>3C525434-1C15-F716-54FE-84E0A1A99981</generatorID>
+<ownerDesignName>animal_shelter</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="placa_miesieczna" id="C599D5C7-1E8B-B2BD-0DA0-0015D84B18A0">
+<createdBy>paulina</createdBy>
+<createdTime>2017-12-04 21:10:00 UTC</createdTime>
+<generatorID>991DB84A-4524-A871-40E2-6AE5B6A9008F</generatorID>
+<ownerDesignName>animal_shelter</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pesel" id="019C6C50-EF24-D103-29A7-7BA1F445DE73">
+<createdBy>paulina</createdBy>
+<createdTime>2017-12-04 21:10:00 UTC</createdTime>
+<generatorID>03F398D2-00F9-1E49-ED7D-3F367A7B5E99</generatorID>
+<ownerDesignName>animal_shelter</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>11 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_zatrudnienia" id="3CF97CC0-C5DA-D2BC-AD2E-D6AC98E1AB99">
+<createdBy>paulina</createdBy>
+<createdTime>2017-12-04 21:10:00 UTC</createdTime>
+<generatorID>35360E11-48D6-F7D3-8008-BE0F216597C0</generatorID>
+<ownerDesignName>animal_shelter</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Typy_pracowników_nazwa" id="A61FD736-FC57-9465-8D23-8F2A8763FB46">
+<createdBy>paulina</createdBy>
+<createdTime>2017-12-04 21:10:00 UTC</createdTime>
+<generatorID>1291D50B-6A54-B169-6941-15C847D86073</generatorID>
+<ownerDesignName>animal_shelter</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5990B199-696B-9EC8-E6F8-7F4BF5AE3854" referredColumn="2B704040-3FA0-5310-D34A-95B5F699BBF4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FFFAA004-CCA3-4D5C-C573-E2381951A035" name="Pracownicy_PK">
+<createdBy>paulina</createdBy>
+<createdTime>2017-12-04 21:10:00 UTC</createdTime>
+<generatorID>E987F3C1-3C38-E808-306E-8B3EC948932B</generatorID>
+<ownerDesignName>animal_shelter</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="019C6C50-EF24-D103-29A7-7BA1F445DE73"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6A71F9C4-843A-BB15-B867-53E1F6CA12F0" name="Pracownicy_Typy_pracowników_FK">
+<createdBy>paulina</createdBy>
+<createdTime>2017-12-04 21:10:00 UTC</createdTime>
+<generatorID>48224066-AD69-7D1E-946A-406F5CFB7CC3</generatorID>
+<ownerDesignName>animal_shelter</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A61FD736-FC57-9465-8D23-8F2A8763FB46"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

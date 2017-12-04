@@ -48,7 +48,7 @@
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="B9A861B4-6F08-1C3D-5430-8B43DBBC42B9" otype="Entity" vid="4491B56B-BDF9-805C-6E2A-32D9B2E96608">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="579" y="204" width="108" height="29"/>
+<bounds x="579" y="204" width="108" height="32"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="C2B52866-4161-DB8F-80F1-828853A913E6" otype="Entity" vid="F25D1A81-82F3-696A-A5C3-1741E817D877">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
@@ -172,13 +172,13 @@
 </sourceLabel>
 <targetLabel class="oracle.dbtools.crest.model.design.Label">
 <site>2</site>
-<labelBounds x="638" y="239" width="53" height="30"/>
+<labelBounds x="639" y="242" width="53" height="30"/>
 <noBackgroundColor>true</noBackgroundColor>
 <noForegroundColor>true</noForegroundColor>
 </targetLabel>
 <points>
 <point x="639" y="356"/>
-<point x="638" y="233"/>
+<point x="639" y="236"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="E0CACCF4-78AD-A43B-139B-6B93DFE104F3" otype="Relation" vid_source="4491B56B-BDF9-805C-6E2A-32D9B2E96608" vid_target="14335207-0DE9-3EEA-E266-31621777CBAA">
@@ -186,19 +186,19 @@
 <lineWidth>1</lineWidth>
 <sourceLabel class="oracle.dbtools.crest.model.design.Label">
 <site>0</site>
-<labelBounds x="537" y="186" width="32" height="32"/>
+<labelBounds x="537" y="188" width="32" height="32"/>
 <noBackgroundColor>true</noBackgroundColor>
 <noForegroundColor>true</noForegroundColor>
 </sourceLabel>
 <targetLabel class="oracle.dbtools.crest.model.design.Label">
 <site>2</site>
-<labelBounds x="461" y="221" width="55" height="32"/>
+<labelBounds x="461" y="223" width="55" height="32"/>
 <noBackgroundColor>true</noBackgroundColor>
 <noForegroundColor>true</noForegroundColor>
 </targetLabel>
 <points>
-<point x="579" y="218"/>
-<point x="451" y="218"/>
+<point x="579" y="223"/>
+<point x="451" y="220"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="F10132FE-8777-0422-CF5C-419D36EF7365" otype="Relation" vid_source="F25D1A81-82F3-696A-A5C3-1741E817D877" vid_target="14335207-0DE9-3EEA-E266-31621777CBAA">

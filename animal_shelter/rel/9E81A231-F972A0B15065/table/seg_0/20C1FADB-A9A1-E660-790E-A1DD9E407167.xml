@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="20C1FADB-A9A1-E660-790E-A1DD9E407167" name="Przypisanie_adoptującego">
+<createdBy>paulina</createdBy>
+<createdTime>2017-12-04 21:10:00 UTC</createdTime>
+<ownerDesignName>animal_shelter</ownerDesignName>
+<ordsAlias>pa</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Adoptujący_pesel" id="43F921F1-32F7-A2CC-1D1D-58B073B5B63B">
+<createdBy>paulina</createdBy>
+<createdTime>2017-12-04 21:10:00 UTC</createdTime>
+<ownerDesignName>animal_shelter</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0DB56256-DADA-2D6B-0694-90C4FED35660" referredColumn="687C3142-9F81-1F17-BBC7-4B3B7428C02E"/>
+</associations>
+</Column>
+<Column name="Adopcje_id_a" id="A46C800C-DF25-D0CA-688E-6C65DD80CD2A">
+<createdBy>paulina</createdBy>
+<createdTime>2017-12-04 21:10:00 UTC</createdTime>
+<ownerDesignName>animal_shelter</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6714313E-3D30-E0E0-ED64-5723DE55DA70" referredColumn="7CB75339-6852-D69A-7558-19B27F32DE7D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="962E7502-017B-0B80-E356-F5ACFF974E8A" name="Przypisanie_adoptującego_PK">
+<createdBy>paulina</createdBy>
+<createdTime>2017-12-04 21:10:00 UTC</createdTime>
+<ownerDesignName>animal_shelter</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="43F921F1-32F7-A2CC-1D1D-58B073B5B63B"/>
+<colUsage columnID="A46C800C-DF25-D0CA-688E-6C65DD80CD2A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1804391D-5F5A-67AB-3CFC-AEDDEE764A97" name="Pa_Adoptujący_FK">
+<createdBy>paulina</createdBy>
+<createdTime>2017-12-04 21:10:00 UTC</createdTime>
+<generatorID>CD26C8C5-88E5-ACB7-7A34-3CE9FD38DB4C</generatorID>
+<ownerDesignName>animal_shelter</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="43F921F1-32F7-A2CC-1D1D-58B073B5B63B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C5E81F5D-9455-27A2-022B-155A676AE93B" name="Pa_Adopcje_FK">
+<createdBy>paulina</createdBy>
+<createdTime>2017-12-04 21:10:00 UTC</createdTime>
+<generatorID>CD26C8C5-88E5-ACB7-7A34-3CE9FD38DB4C</generatorID>
+<ownerDesignName>animal_shelter</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A46C800C-DF25-D0CA-688E-6C65DD80CD2A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

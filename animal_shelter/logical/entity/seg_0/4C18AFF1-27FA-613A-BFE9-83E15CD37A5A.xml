@@ -27,20 +27,6 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_m" id="8F53A886-CD67-5031-4EAF-8D80A347BCD3">
-<createdBy>paulina</createdBy>
-<createdTime>2017-11-27 17:09:51 UTC</createdTime>
-<generatorID>F10132FE-8777-0422-CF5C-419D36EF7365</generatorID>
-<ownerDesignName>animal_shelter</ownerDesignName>
-<engineerTo>
-<item key="9E81A231-DD50-5161-9D8B-F972A0B15065" value="true"/>
-</engineerTo>
-<referedAttribute>D22C7306-D0F8-CA12-8EB2-7A0F8C6FFCCF</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="nazwa" id="70F70EE7-D790-D826-B3FA-A4C177E488EF">
 <createdBy>paulina</createdBy>
 <createdTime>2017-11-27 17:15:21 UTC</createdTime>
@@ -54,7 +40,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>30 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="imię" id="EB37EB01-CBFF-E80E-D579-59DFF90FA3E6">
 <createdBy>paulina</createdBy>
@@ -68,6 +54,20 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>30 CHAR</dataTypeSize>
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_m" id="95FA0E19-64B5-7C27-6C37-8F3FE1F2FE84">
+<createdBy>paulina</createdBy>
+<createdTime>2017-12-04 21:19:58 UTC</createdTime>
+<generatorID>F10132FE-8777-0422-CF5C-419D36EF7365</generatorID>
+<ownerDesignName>animal_shelter</ownerDesignName>
+<engineerTo>
+<item key="9E81A231-DD50-5161-9D8B-F972A0B15065" value="true"/>
+</engineerTo>
+<referedAttribute>D22C7306-D0F8-CA12-8EB2-7A0F8C6FFCCF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
