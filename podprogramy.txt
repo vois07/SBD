@@ -1,0 +1,48 @@
+create or replace package schronisko_package is
+	function czy_zaadoptowane(p_id_zwierz in number) return varchar;
+	function liczba_przydzialow(p_id_prac) return number;
+	procedure liczba_zwierzat_raport;
+end;
+
+create or replace package body schronisko_package is
+	function czy_zaadoptowane(p_id_zwierz number) return varchar2 is
+	v_nazwisko adoptujący.nazwisko%type := null;
+	cursor c_adoptujacy is
+		select nazwisko from adoptujacy where id_zwierz=p_id_zwierz order by data_adopcji desc fetch first 1 rows only;
+	begin
+		open c_adoptujacy
+		loop
+			fetch c_adopyujacy into v_nazwisko;
+			exit when c_adoptujacy%notfound;
+		end loop;
+		close c_adoptujacy;
+		return v_nazwisko;
+	end;
+
+	function liczba_przydzialow(p_id_prac) return number is
+	v_przydzialy number;
+	begin
+		select count(*) into v_przydzialy from pracownicy where id_prac=p_id_prac;
+		return v_przydzialy;
+	end;
+
+	procedure liczba_zwierzat_raport is
+	v_typ zwierzeta.typ%type;
+	v_liczba number;
+	cursor c_zwierzeta is
+		select typ, count(id_zwierz) from zwierzeta group by typ order by 1;
+	begin
+		open c_zwierzeta;
+		loop
+			fetch c_zwierzeta into v_typ, v_liczba;
+			dbms_output.put_line('typ: '||v_typ||' liczba: '||v_liczba);
+		end loop;
+		close c_zwierzeta;
+	end;
+end;
+
+	
+
+
+Czy dane zwierzę było zaadoptowane? Nie-null tak-naziwsko ostatniego kto adoptowal
+Dla danego pracownika liczba przydziałów
